@@ -67,7 +67,7 @@ TypeScript-сайт с описанием архитектуры и сценар
 
 ## 🛠 Tech stack
 
-**AI:** ![Anthropic](https://img.shields.io/badge/Anthropic-API-191919?logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai&logoColor=white) ![YandexGPT](https://img.shields.io/badge/YandexGPT-FFCC00) ![GigaChat](https://img.shields.io/badge/GigaChat-00BFFF) ![Claude Code](https://img.shields.io/badge/Claude%20Code-9333EA) ![Codex](https://img.shields.io/badge/Codex-000000) ![Cursor](https://img.shields.io/badge/Cursor-1A1A1A)
+**AI:** ![Anthropic](https://img.shields.io/badge/Anthropic-API-191919?logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai&logoColor=white) ![YandexGPT](https://img.shields.io/badge/YandexGPT-FFCC00) ![GigaChat](https://img.shields.io/badge/GigaChat-00BFFF) ![Claude Code](https://img.shields.io/badge/Claude%20Code-9333EA) ![Codex](https://img.shields.io/badge/Codex-000000) ![Cursor](https://img.shields.io/badge/Cursor-1A1A1A) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
 
 **Backend:** ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![aiogram](https://img.shields.io/badge/aiogram-v3-2AABEE) ![asyncio](https://img.shields.io/badge/asyncio-3776AB)
 
