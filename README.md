@@ -1,0 +1,44 @@
+# Roman Barmin
+
+### Applied AI / LLM Engineer · Python Backend
+
+Разрабатываю прикладные AI-системы: голосовых агентов, обработку документов, RAG и интеграции с бизнес-сервисами. Коммерческий опыт в Applied AI с октября 2023 года. Мой фокус: работа с данными и API, проверяемость ответов LLM и восстановление после сбоев.
+
+**Открыт к основной работе в Applied AI или Python Backend для AI-продуктов.** Удалённо · Москва · английский B2.
+
+[Резюме и контакты на hh.ru](https://hh.ru/resume/5a9ad61fff1083f6800039ed1f385553574470)
+
+## Последний коммерческий проект: Voice Agent
+
+В феврале - августе 2026 года руководил разработкой голосового и текстового агента для e-commerce. Команда: я как технический лидер и три разработчика. Отвечал за требования, архитектуру, постановку и приёмку задач и релизы; лично разрабатывал голосовой конвейер, инструменты и сценарии диалога.
+
+Pipecat · STT → LLM → TTS · SIP и браузер · перебивания · проверка ответа перед озвучкой · более 20 инструментов в системе.
+
+**[Обезличенный технический кейс](cases/voice-agent.md).** Система выведена в production; код, заказчик и продукт закрыты NDA. Моя работа над проектом завершена в августе 2026.
+
+## С чего начать знакомство с кодом
+
+| Проект | Что посмотреть | Статус |
+|---|---|---|
+| [Tender Agent](https://github.com/Refusned/tender-agent) | PDF/DOCX/OCR, проверка цитат, расчёт сметы кодом, подготовка заявки с подтверждением человеком | Обезличенная версия коммерческого проекта |
+| [RAG на PostgreSQL / pgvector](https://github.com/Refusned/tender-rag-pgvector) | HNSW + полнотекстовый поиск, RRF, транзакционная загрузка, тесты с настоящим PostgreSQL | Тестовое задание; Python/FastAPI |
+| [SMM Agent](https://github.com/Refusned/smm-agent) | Tool calling, 6 интеграций, идемпотентность операций, проверка результата по внешним API | Обезличенная версия коммерческого проекта |
+| [WB Agent](https://github.com/Refusned/wb-agent) | Асинхронный Seller API, аналитика, 15 инструментов агента и подтверждение действий | Автоматизация собственного e-commerce-бизнеса |
+| [Digital Goods Core](https://github.com/Refusned/digital-goods-core) | Идемпотентные вебхуки, конкурентная выдача, восстановление после таймаутов, журнал проводок | Тестовое задание; **Node.js / PostgreSQL** |
+
+Дополнительно: [извлечение данных из PDF](https://github.com/Refusned/tender-pdf-summarizer), [витрина цифровых товаров](https://github.com/Refusned/digital-goods-shop), [задачи по Django и сериализации](https://github.com/Refusned/inpulse-backend-test).
+
+В README проектов есть маршруты по исходникам и тестам. Тестовые LLM и платёжные заглушки явно обозначены: прохождение CI не подменяет проверку реальных провайдеров или коммерческой эксплуатации.
+
+## Инженерный фокус
+
+- **Python backend:** FastAPI, asyncio, REST, WebSocket, PostgreSQL, pgvector, SQLite.
+- **Applied AI:** tool calling, structured outputs, RAG, LangChain/LangGraph, MCP, evals.
+- **Надёжность:** идемпотентность, транзакции, retry/backoff, проверка результатов и подтверждение критичных действий.
+- **Поставка:** тесты, Docker, GitHub Actions, Linux/VPS; требования, архитектура и техническое руководство небольшой командой.
+
+## Инструменты для разработки с AI
+
+[promt](https://github.com/Refusned/promt) · [claude-find-solutions](https://github.com/Refusned/claude-find-solutions) · [skill-forge](https://github.com/Refusned/skill-forge)
+
+Небольшие инструменты для подготовки задач, поиска готовых решений и повторного использования опыта разработки.
