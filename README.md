@@ -21,12 +21,8 @@ Pipecat · STT → LLM → TTS · SIP и браузер · перебивани�
 | Проект | Что посмотреть | Статус |
 |---|---|---|
 | [Tender Agent](https://github.com/Refusned/tender-agent) | PDF/DOCX/OCR, проверка цитат, расчёт сметы кодом, подготовка заявки с подтверждением человеком | Обезличенная версия коммерческого проекта |
-| [RAG на PostgreSQL / pgvector](https://github.com/Refusned/tender-rag-pgvector) | HNSW + полнотекстовый поиск, RRF, транзакционная загрузка, тесты с настоящим PostgreSQL | Тестовое задание; Python/FastAPI |
 | [SMM Agent](https://github.com/Refusned/smm-agent) | Tool calling, 6 интеграций, идемпотентность операций, проверка результата по внешним API | Обезличенная версия коммерческого проекта |
 | [WB Agent](https://github.com/Refusned/wb-agent) | Асинхронный Seller API, аналитика, 15 инструментов агента и подтверждение действий | Автоматизация собственного e-commerce-бизнеса |
-| [Digital Goods Core](https://github.com/Refusned/digital-goods-core) | Идемпотентные вебхуки, конкурентная выдача, восстановление после таймаутов, журнал проводок | Тестовое задание; **Node.js / PostgreSQL** |
-
-Дополнительно: [извлечение данных из PDF](https://github.com/Refusned/tender-pdf-summarizer), [витрина цифровых товаров](https://github.com/Refusned/digital-goods-shop), [задачи по Django и сериализации](https://github.com/Refusned/inpulse-backend-test).
 
 В README проектов есть маршруты по исходникам и тестам. Тестовые LLM и платёжные заглушки явно обозначены: прохождение CI не подменяет проверку реальных провайдеров или коммерческой эксплуатации.
 
